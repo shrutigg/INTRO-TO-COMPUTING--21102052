@@ -26,15 +26,12 @@ print("your tax comes out to be", tax)
 #QUES3
 
 print("student = [sid, name, gender, course, cgpa]")
-
 sid = int(input("enter your sid :"))
 name = str(input("enter your name :"))
 gender = str(input("gender (M,F,U) :"))
 course = str(input("course name :"))
 cgpa = float(input("enter your cgpa :"))
-
 student = [sid, name, gender, course, cgpa]
-
 print("student info :", student)
 
 #QUES4
