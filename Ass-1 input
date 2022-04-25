@@ -1,4 +1,4 @@
-#ques1
+#QUES1
 
 a=int(input("enter first number :"))
 b=int(input("enter second number  :"))
@@ -56,4 +56,9 @@ print("marks in decsending order :", marks)
 
 #QUES5
 
-color ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+list=['red', 'green', 'white', 'black', 'pink', 'yellow']
+
+list.remove("black")
+print(list)
+list[3]=("purple")
+print(list)
