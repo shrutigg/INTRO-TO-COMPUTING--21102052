@@ -5,8 +5,8 @@
 A) length of input string is: 35
 B)reversed string: egaugnal evitisnes esac a si nohtyp
 c) Sliced String: a case sensitive
-D) python is object oriented language
-e. The substring 'a' was found at index = 10, 13, 28, 32
+D) python is object oriented language  
+[10, 13, 28, 32]
 F) pythonisacasesensitivelanguage
 
          QUESTION - 2
