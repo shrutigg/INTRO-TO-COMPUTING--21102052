@@ -61,16 +61,18 @@ else:
 
 print("\n         QUESTION - 5\n")
 
-sideList = [0, 0, 0]
-for i in range(len(sideList)):
-    sideList[i] = int(input('Enter side %d: '%(i+1)))
-sideList.sort()
+#First we take user input
+a1=input("Enter 1st side: ")
+b1=input("Enter 2nd side: ")
+c1=input("Enter 3rd side: ")
 
-# Checking if the sum of the smallest 2 side lengths
-# is greater than the largest side is sufficient
-result =  sideList[0] + sideList[1] > sideList[2]
+#Then we convert them into integers
+a=(int)(a1)
+b=(int)(b1)
+c=(int)(c1)
 
-if result:
+# Then we check the condition for triangle
+if((a+b)>c and (b+c)>a and (c+a)>b):
     print('Yes')
 else:
     print('No')
