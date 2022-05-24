@@ -11,18 +11,10 @@ print('c) Sliced String:', sliced)
 
 print("D)",istring.replace ("a case sensitive","object oriented"))
 
-pString = istring
-print('e. The substring \'a\' was found at index = ', end = '')
-i = 0
-for travel in pString:
-    if travel == 'a':
-        #this 2nd if statement is to prevent printing of a ',' at the last index
-        #we find the index of the last occurence of 'a'
-        if i != (len(pString) - pString[::-1].find('a') - 1): 
-            print(i, ', ', sep = '', end = '')
-        else:
-            print(i)
-    i += 1
+import re
+main_string = "Python is a case sensitive language"
+
+print([i.start() for i in re.finditer("a",main_string)])
 
 print("F)",istring.replace(" ",""))
 
