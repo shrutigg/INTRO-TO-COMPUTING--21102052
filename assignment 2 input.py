@@ -47,14 +47,13 @@ print('e. a >> 2 =', a >> 2, 'b >> 4 =', b >> 4)
 
 print("\n         QUESTION - 4\n")
 
-input_string = input('Enter your string: ')
+string=input("Enter your string: ")
 
-index = input_string.find('name')
-# Because find() function returns -1 when the substring is not found in the given string
-if index == -1:
-    print('No')
-else:
+# Then we check if "name" is present in string or not
+if "name" in string:
     print('Yes')
+else:
+    print('No')
 
 
 
