@@ -1,4 +1,4 @@
-#Question 1
+print("Question 1 \n")
 marks = float(input("Enter marks = "))
 
 if marks<25:
@@ -13,10 +13,10 @@ elif marks in range(60,80):
     print("Grade : B")
 else :
     print("Grade : A")
+print("\n")   
+
     
-#-------------------------------------------------------------------------------------------------
-    
-#Question 2
+print("Question 2 \n")
 year = int(input("Enter the year = "))
 
 if year%4 == 0:
@@ -29,10 +29,9 @@ if year%4 == 0:
         print(year,"is a Leap year")
 else:
     print(year,"is not a Leap year")
-    
-#-------------------------------------------------------------------------------------------------    
-    
-#Question 3
+print("\n")    
+
+print("Question 3 \n")
 from random import randint, random
 
 for i in range(1,11):
@@ -46,16 +45,12 @@ for i in range(1,11):
         print("Right!")
     else:
         print("Wrong. The answer is",answer)
-        
-#-------------------------------------------------------------------------------------------------
-        
-#Question 4
+print("\n")        
+
+print("Question 4\n")
 for candies in range(200):
     if candies % 5 == 2:
         if candies % 6 == 3:
             if candies % 7 == 2:
                 print(candies,'candies are in the bowl!')
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
+
