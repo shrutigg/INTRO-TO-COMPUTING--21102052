@@ -12,18 +12,18 @@ print("\n")
 print("Question 3 \n")
 import math
 
-print((3+4)*5)                                                             #A
+print((3+4)*5)                                                             
 
 
-n = float(input("Enter the value of n= "))                                 #B
+n = float(input("Enter the value of n= "))                                 
 print((n*(n-1))/2)
 
 
-r = float(input("Enter the value of r= "))                                 #C
+r = float(input("Enter the value of r= "))                                 
 print(4*math.pi*r**2)
 
 
-a = int(input("Enter the value of a = "))                                  #D
+a = int(input("Enter the value of a = "))                                  
 b = int(input("Enter the value of b = "))
 r = int(input("Enter the value of r = "))
 
@@ -33,7 +33,7 @@ y = math.radians(b)
 print(math.sqrt((r*(math.cos(a))**2) + r*(math.sin(b))**2))
 
 
-y1 = int(input("Enter the value of y1 = "))                                #E
+y1 = int(input("Enter the value of y1 = "))                                
 y2 = int(input("Enter the value of y2 = "))
 x1 = int(input("Enter the value of x1 = "))
 x2 = int(input("Enter the value of x2 = "))
@@ -42,23 +42,23 @@ print((y2-y1)/(x2-x1))
 print("\n")
 
 print("Question 4 \n")
-for i in range(5):                                                 #A
+for i in range(5):                                                 
     print(i)
 
 
-for i in range(3,10):                                              #B
+for i in range(3,10):                                              
     print(i)
 
 
-for i in range(4,13,3):                                            #C
+for i in range(4,13,3):                                            
     print(i)
 
 
-for i in range(15,5,-2):                                           #D
+for i in range(15,5,-2):                                           
     print(i)
 
 
-for i in range(5,3):                                               #E
+for i in range(5,3):                                               
     print(i)
 print("\n")
 
