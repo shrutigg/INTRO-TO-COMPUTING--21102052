@@ -1,1 +1,51 @@
+Enter a number: 5
+ 5 is not a Perfect Number
+
+
+Enter the word:naman
+naman is a Palindrome.
+Enter the number of rows=
+======================= RESTART: C:/Users/Lenovo/ass 6.py ======================
+Enter a number: 6
+ 6 is a Perfect Number
+
+
+Enter the word:naman
+naman is a Palindrome.
+
+
+Enter the number of rows=5
+     1 
+    1 1 
+   1 2 1 
+  1 3 3 1 
+ 1 4 6 4 1 
+
+
+Enter the sentence/word:the quick dog
+the quick dog is not a Pangram.
+
+
+Enter the words in a hyphen-separated sequence:banana-milk-biscuit
+banana-biscuit-milk
+
+
+
+Student ID: 21106035
+Student Name: Aaditya
+
+Student ID: 21107032
+Student Name: Kashish
+
+Student Name: Kashish
+Student Class: XI
+
+
+True
+False
+True
+False
+Check whether the said classes are subclasses of the built-in object class or not.
+True
+True
 
