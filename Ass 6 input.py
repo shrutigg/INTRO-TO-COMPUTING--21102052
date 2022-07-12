@@ -1,27 +1,18 @@
-#Question 1
-n = int(input("Enter the number="))
-
-l1 = []
-
-for i in range(1,n):
-    if n%i==0:
-        l1.append(i)
-
+#question1
+n = int(input("Enter a number: "))
 sum = 0
-
-for j in range(len(l1)):
-    sum = sum + l1[j]
-
-if sum == n:
-    print(n,"is a Perfect Number")
+for i in range(1, n):
+    if(n % i == 0):
+        sum = sum + i
+if (sum == n):
+    print(" %d is a Perfect Number" %n)
 else:
-    print(n,"is not a Perfect Number")
-   
-    
+    print(" %d is not a Perfect Number" %n)
+print("\n")
+
 #Question 2
 s1 = input("Enter the word:")
 s2 = s1.lower()
-
 reverse_s2 = s2[::-1]
 
 if s2 == reverse_s2:
