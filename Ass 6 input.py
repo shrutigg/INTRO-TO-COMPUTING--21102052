@@ -19,6 +19,7 @@ if s2 == reverse_s2:
     print(s1,"is a Palindrome.")
 else:
     print(s1,"is not a Palindrome.")
+print("\n")
     
 
     
@@ -35,7 +36,7 @@ for i in range(n):
         print(factorial(i)//(factorial(j)*factorial(i-j)), end=" ")
         
     print()
-    
+print("\n")    
 
     
 #Question 4
@@ -54,7 +55,7 @@ if len(l1)==26:
     print(s1,"is a Pangram.")
 else:
     print(s1,"is not a Pangram.")
-    
+print("\n")    
 
     
 #Question 5
@@ -63,7 +64,7 @@ s1 = input("Enter the words in a hyphen-separated sequence:")
 l1 = list(s1.split("-"))
 l1.sort()
 print("-".join(l1))
-
+print("\n")
 
 
 #Question 6
@@ -80,7 +81,7 @@ def student_data(student_id, **kwargs):
 student_data(student_id='21106035', student_name='Aaditya')
 
 student_data(student_id='21107032', student_name='Kashish', student_class ='XI')
-
+print("\n")
 
 
 #Question 7
@@ -98,7 +99,7 @@ print("Check whether the said classes are subclasses of the built-in object clas
 print(issubclass(Student, object))
 print(issubclass(Marks, object))
 print()
-
+print("\n")
 
 
 #Question 8
@@ -123,7 +124,7 @@ for i in range(0, n):
 	ele = int(input())
 	lst.append(ele) 
 print(findTriplets(lst,n))                
-
+print("\n")
 
 
 #Question 9
