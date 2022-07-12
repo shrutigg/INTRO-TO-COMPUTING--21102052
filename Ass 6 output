@@ -49,3 +49,14 @@ Check whether the said classes are subclasses of the built-in object class or no
 True
 True
 
+Enter number of elements : 4
+4
+4
+4
+2
+No triplets exist
+None
+
+
+Enter the sequence of parantheses : '()','{}'
+'()','{}' - is unbalanced
